@@ -1,0 +1,58 @@
+main {
+    text-align: center;
+    color: darkblue;
+}
+
+body {
+    height: auto;
+}
+
+.main a :hover {
+    opacity: 0.4;
+    text-transform: uppercase;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.exercises {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    outline: auto lightgrey;
+}
+
+.arms {
+    
+}
+
+.legs {
+
+}
+
+.shoulder {
+
+}
+
+.back {
+
+}
+
+.leftbicep {
+    outline: auto;
+}
+
+.rightbicep {
+    outline: auto;
+}
+
+.beginnerhalf2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 100px;
+    place-items: center;
+    outline: auto lightgrey;
+}
